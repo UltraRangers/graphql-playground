@@ -10,6 +10,6 @@ app.use('/graphql', graphqlHTTP({
   graphiql: true
 }));
 
-app.listen(8080, () => {
+app.listen(3000, () => {
   console.log(`server listening at localhost:8080`);
 });

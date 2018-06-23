@@ -8,14 +8,15 @@ const {
 } = require('graphql');
 
 const UserDao = require('./user.dao');
-const UserType = require('./user.type');
+const { UserType, UserInputType } = require('./user.type');
 
 const FilterType = new GraphQLInputObjectType({
   name: 'Filter',
   fields: () => ({
     limit: { type: GraphQLInt },
     skip: { type: GraphQLInt },
-    order: { type: GraphQLString }
+    order: { type: GraphQLString },
+    where: { type: UserInputType }
   })
 });
 
