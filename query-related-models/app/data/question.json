@@ -1,0 +1,26 @@
+[
+  {
+    "formId": 1,
+    "questionId": 1,
+    "title": "Firstname",
+    "type": "text"
+  },
+  {
+    "formId": 1,
+    "questionId": 2,
+    "title": "Lastname",
+    "type": "text"
+  },
+  {
+    "formId": 2,
+    "questionId": 3,
+    "title": "Payment type",
+    "type": "radio"
+  },
+  {
+    "formId": 2,
+    "questionId": 4,
+    "title": "Balance due",
+    "type": "number"
+  }
+]
